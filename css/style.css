@@ -8,21 +8,22 @@ a {
 }
 
 nav#navbar {
-    background: #d21e39;
+    background: #60719a;
     position: fixed;
     top: 0;
     width: 100%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 
 nav#navbar .menu {
     display: flex;
-    justify-content: end;
+    justify-content: center;
     align-items: flex-end;
     width: 100%;
     margin-left: auto;
     position: relative;
-    /* right: 30px !important; */
+    right: 30px /*!important; */
 }
 
 nav#navbar .menu a {
@@ -32,29 +33,30 @@ nav#navbar .menu a {
 }
 
 nav#navbar .menu a:hover {
-    background: rgb(101, 101, 248);
+    background: rgb(101, 248, 233);
 }
 
 #welcome-section {
-    height: 100vh;
+    height: 40vh;
     width: 100%;
-    background: #2f3133;
+    background: #e6f2ec;
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
     flex-direction: column;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 #welcome-section h1 {
-    color: white;
+    color: rgb(27, 26, 26);
     font-weight: bold;
     font-size: 3em;
 }
 
 #welcome-section p {
-    color: red;
-    font-size: 24px;
+    color: rgb(27, 26, 26);
+    font-size: 35px;
     position: relative;
     top: -40px;
 }
@@ -65,6 +67,8 @@ section#projects {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 #projects .project-container{
@@ -103,7 +107,7 @@ section#projects>* {
     color: white;
     font-weight: bold;
     font-size: 20px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 
@@ -128,7 +132,7 @@ section#projects>h2 {
 /* footer section */
 footer{
     background-color: #293841;
-    height: 100vh;
+    height: 50vh;
     width: 100%;
 }
 
@@ -143,7 +147,7 @@ footer .social-links{
 footer .social-links a{
     color: #eeeeee;
     font-size: 30px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin: 15px;
     top: 0;
     transition: transform 0.4s ease-in-out
